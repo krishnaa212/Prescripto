@@ -88,212 +88,212 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Dr. Rajeev Sharma',
         image: doc1,
-        speciality: 'General physician',
+        speciality: 'General Physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Sharma is dedicated to delivering comprehensive healthcare with a focus on preventive medicine and timely diagnosis.',
+        fees: 500,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Salt Lake Sector I',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc2',
-        name: 'Dr. Emily Larson',
+        name: 'Dr. Neha Mehta',
         image: doc2,
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'Dr. Mehta offers expert gynecological care and emphasizes patient comfort and awareness.',
+        fees: 600,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Park Street',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc3',
-        name: 'Dr. Sarah Patel',
+        name: 'Dr. Ananya Roy',
         image: doc3,
         speciality: 'Dermatologist',
         degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
+        experience: '1 Year',
+        about: 'Dr. Roy provides effective treatment for skin, hair, and nail conditions.',
+        fees: 300,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Gariahat Road',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc4',
-        name: 'Dr. Christopher Lee',
+        name: 'Dr. Karan Malhotra',
         image: doc4,
-        speciality: 'Pediatricians',
+        speciality: 'Pediatrician',
         degree: 'MBBS',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 40,
+        about: 'Dr. Malhotra ensures compassionate and thorough pediatric care.',
+        fees: 400,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Behala Chowrasta',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc5',
-        name: 'Dr. Jennifer Garcia',
+        name: 'Dr. Priya Desai',
         image: doc5,
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Desai specializes in treating disorders of the brain and nervous system with modern techniques.',
+        fees: 500,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'New Alipore Block A',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc6',
-        name: 'Dr. Andrew Williams',
+        name: 'Dr. Manish Reddy',
         image: doc6,
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Reddy is experienced in diagnosing and treating a wide range of neurological disorders.',
+        fees: 500,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Lake Gardens',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc7',
-        name: 'Dr. Christopher Davis',
+        name: 'Dr. Kavita Iyer',
         image: doc7,
-        speciality: 'General physician',
+        speciality: 'General Physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Iyer focuses on preventive health and chronic disease management.',
+        fees: 500,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Ballygunge Place',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc8',
-        name: 'Dr. Timothy White',
+        name: 'Dr. Arjun Kapoor',
         image: doc8,
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'Dr. Kapoor provides expert care in women’s health and maternity.',
+        fees: 600,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Camac Street',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc9',
-        name: 'Dr. Ava Mitchell',
+        name: 'Dr. Riya Singh',
         image: doc9,
         speciality: 'Dermatologist',
         degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
+        experience: '1 Year',
+        about: 'Dr. Singh offers advanced skincare treatments tailored to individual needs.',
+        fees: 300,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Prince Anwar Shah Road',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc10',
-        name: 'Dr. Jeffrey King',
+        name: 'Dr. Aarav Nair',
         image: doc10,
-        speciality: 'Pediatricians',
+        speciality: 'Pediatrician',
         degree: 'MBBS',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 40,
+        about: 'Dr. Nair provides holistic care for infants, children, and adolescents.',
+        fees: 400,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Jodhpur Park',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc11',
-        name: 'Dr. Zoe Kelly',
+        name: 'Dr. Sneha Bhatt',
         image: doc11,
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Bhatt specializes in the treatment of epilepsy, stroke, and movement disorders.',
+        fees: 500,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Kasba, Ruby Connector',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc12',
-        name: 'Dr. Patrick Harris',
+        name: 'Dr. Varun Gupta',
         image: doc12,
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Gupta provides accurate diagnosis and management of neurological conditions.',
+        fees: 500,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Dum Dum Road',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc13',
-        name: 'Dr. Chloe Evans',
+        name: 'Dr. Meera Nambiar',
         image: doc13,
-        speciality: 'General physician',
+        speciality: 'General Physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Nambiar promotes wellness and disease prevention through patient education.',
+        fees: 500,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Rashbehari Avenue',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc14',
-        name: 'Dr. Ryan Martinez',
+        name: 'Dr. Rohan Shetty',
         image: doc14,
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'Dr. Shetty specializes in prenatal care and women’s reproductive health.',
+        fees: 600,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Southern Avenue',
+            line2: 'Kolkata, West Bengal'
         }
     },
     {
         _id: 'doc15',
-        name: 'Dr. Amelia Hill',
+        name: 'Dr. Anika Joshi',
         image: doc15,
         speciality: 'Dermatologist',
         degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
+        experience: '1 Year',
+        about: 'Dr. Joshi combines cosmetic and clinical dermatology for optimal patient outcomes.',
+        fees: 300,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Tollygunge',
+            line2: 'Kolkata, West Bengal'
         }
-    },
-]
+    }
+];
