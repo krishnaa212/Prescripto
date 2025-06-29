@@ -137,7 +137,7 @@ console.log("Backend URL:", backendUrl)
                 <option value="General physician">General physician</option>
                 <option value="Gynecologist">Gynecologist</option>
                 <option value="Dermatologist">Dermatologist</option>
-                <option value="Pediatricians">Pediatricians</option>
+                <option value="Pediatricians">Pediatrician</option>
                 <option value="Neurologist">Neurologist</option>
                 <option value="Gastroenterologist">Gastroenterologist</option>
               </select>
