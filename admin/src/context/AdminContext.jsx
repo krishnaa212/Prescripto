@@ -1,29 +1,28 @@
 import { createContext, useState } from "react";
 import axios from "axios"
-import {toast} from "react-toastify"
+import { toast } from "react-toastify"
 
 export const AdminContext = createContext()
 
-const AdminContextProvider = (props)=>{
-  
-  const [atoken,setAtoken] = useState(localStorage.getItem("atoken") || '');//Admin token
-  const [doctors,setDoctors] = useState([]);
-  const [appointments,setAppointments] = useState([]); 
+const AdminContextProvider = (props) => {
+
+  const [atoken, setAtoken] = useState(localStorage.getItem("atoken") || '');//Admin token
+  const [doctors, setDoctors] = useState([]);
+  const [appointments, setAppointments] = useState([]);
+  const [dashData, setDashData] = useState(false);
 
 
   const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
-  const getAllDoctors = async () =>{
+  const getAllDoctors = async () => {
     try {
-      const {data} = await axios.post(backendUrl + "/api/admin/all-doctors", {}, { headers : {atoken}})
+      const { data } = await axios.post(backendUrl + "/api/admin/all-doctors", {}, { headers: { atoken } })
 
-      if(data.success)
-      {
+      if (data.success) {
         setDoctors(data.doctors)
         console.log(data.doctors)
       }
-      else
-      {
+      else {
         toast.error(data.message)
       }
     } catch (error) {
@@ -33,14 +32,12 @@ const AdminContextProvider = (props)=>{
 
   const changeAvailability = async (docId) => {
     try {
-      const {data} = await axios.post(backendUrl + "/api/admin/change-availability",{docId},{headers:{atoken}});
-      if(data.success)
-      {
+      const { data } = await axios.post(backendUrl + "/api/admin/change-availability", { docId }, { headers: { atoken } });
+      if (data.success) {
         toast.success(data.message)
         getAllDoctors()
       }
-      else
-      {
+      else {
         toast.error(data.message);
       }
     } catch (error) {
@@ -50,17 +47,16 @@ const AdminContextProvider = (props)=>{
 
   const getAllAppointments = async () => {
     try {
-      const {data} = await axios.get(backendUrl+"/api/admin/appointments",{headers:{atoken}})
+      const { data } = await axios.get(backendUrl + "/api/admin/appointments", { headers: { atoken } })
 
-      if(data.success)
-      {
+      if (data.success) {
         setAppointments(data.appointments)
         console.log(data.appointments)
       }
-      else{
+      else {
         toast.error(data.message)
       }
-      
+
     } catch (error) {
       toast.error(data.message)
     }
@@ -68,14 +64,12 @@ const AdminContextProvider = (props)=>{
 
   const cancelAppointment = async (appointmentId) => {
     try {
-      const {data} =await axios.post(backendUrl+"/api/admin/cancel-appointment",{appointmentId},{headers:{atoken}})
-      if(data.success)
-      {
+      const { data } = await axios.post(backendUrl + "/api/admin/cancel-appointment", { appointmentId }, { headers: { atoken } })
+      if (data.success) {
         toast.success(data.message)
         getAllAppointments();
       }
-      else
-      {
+      else {
         toast.error(data.message)
       }
     } catch (error) {
@@ -83,11 +77,30 @@ const AdminContextProvider = (props)=>{
     }
   }
 
+  const getDashData = async () => {
+    try {
+
+      const { data } = await axios.get(backendUrl + "/api/admin/dashboard", { headers: { atoken } })
+
+      if (data.success) {
+        setDashData(data.dashData)
+        console.log(data.dashData)
+      }
+      else
+      {
+        toast.error(data.message)
+      }
+
+    } catch (error) {
+      toast.error(data.message)
+    }
+  }
+
   const value = {
-    atoken,setAtoken,
-    backendUrl,doctors,getAllDoctors,changeAvailability,
-    appointments,setAppointments,getAllAppointments,
-    cancelAppointment
+    atoken, setAtoken,
+    backendUrl, doctors, getAllDoctors, changeAvailability,
+    appointments, setAppointments, getAllAppointments,
+    cancelAppointment,setDashData,dashData,getDashData
   }
   return (
     <AdminContext.Provider value={value}>
